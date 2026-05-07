@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-ollama-omni"
+description = "ComfyUI-OllamaOmni — Ollama nodes for text, vision, audio, and video. Forked and extended from comfyui-ollama by stavsap."
+version = "3.0.0"
+license = { file = "LICENSE" }
+dependencies = ["ollama"]
+
+[project.urls]
+Repository = "https://github.com/ckinpdx/ComfyUI-OllamaOmni"
+
+[tool.comfy]
+PublisherId = "ckinpdx"
+DisplayName = "ComfyUI-OllamaOmni"
+Icon = ""

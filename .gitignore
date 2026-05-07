@@ -1,0 +1,11 @@
+venv/
+.idea/
+.vscode/
+.env
+
+__pycache__/
+*.pyc
+*.pyo
+
+saved_context/
+*.Modelfile
