@@ -502,8 +502,8 @@ unload_after: {unload_after}
             pprint(response)
             print("---------------------------------------------------------")
 
-        ollama_response_text = response['response']
-        ollama_response_thinking = response['thinking'] if think else None
+        ollama_response_text = response['response'].strip()
+        ollama_response_thinking = response['thinking'].strip() if think and response.get('thinking') else None
 
         if keep_context:
             self.saved_context = response["context"]
